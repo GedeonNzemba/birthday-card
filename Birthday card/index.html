@@ -1,0 +1,77 @@
+<html>
+
+  <head>
+    <title>Gedeon Nzemba - Project insite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css.map">
+  </head>
+  <style>
+    body {
+      text-align: center;
+    }
+    img {
+      width: 50%;
+      height: 80vh;
+    }
+  
+  </style>
+  
+  <body>
+  <div id="outside">
+    <h1 class="title">HAPPY BIRTHDAY</h1>
+
+  <div class="block">
+    <img src="https://images.pexels.com/photos/19640/pexels-photo.jpg?cs=srgb&dl=baked-goods-birthday-cake-19640.jpg&fm=jpg" >
+  </div>
+
+  <p>
+    <button class="button"  onclick="open_card()">Click to open</button>
+  </p>
+  
+ </div> 
+ <div id="inside">
+    
+      <p id="inside-title" class="title">
+        Happy Birthday!
+      </p>
+      
+      <img id="inside-pic" src="https://images.pexels.com/photos/1569174/pexels-photo-1569174.jpeg?cs=srgb&dl=adorable-blur-boy-1569174.jpg&fm=jpg">
+      
+      <p id="message">
+        happy 6th anniversary, little  brother!
+        God bless you and keep you safe.
+      </p>
+
+      <p>
+        <button onclick="close_card()">Click to close</button>
+      </p>
+      
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <script>
+    function open_card() {
+      document.getElementById('outside').className = 'open-card';
+    }
+    
+    function close_card() {
+      document.getElementById('outside').className = '';
+    }
+  </script> 
+  </body>
+  
+</html>
